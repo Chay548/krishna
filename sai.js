@@ -1,6 +1,6 @@
 const exp=require('express');
 const ap=express();
-const port=9000;
+const port=3000;
 ap.get("/",(req,res)=>{
     res.send("hk");
 });
